@@ -1,4 +1,3 @@
-<img align="center" src="Img/Azora.png" width="50%"> 
 
 <h1 align="center">Azora Multi-Tools</h1>
 
