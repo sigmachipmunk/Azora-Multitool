@@ -145,7 +145,7 @@
 
 <h1 align="center">Installation</h1>
 
-<a href="https://github.com/sigmachipmunk/Azora-Multitool/archive/refs/heads/main.zip">Dowloads "Azora-Multi-Tool.zip" Here</a>
+<a href="https://github.com/sigmachipmunk/Azora-Multitool/archive/refs/heads/main.zip">Download "Azora-Multi-Tool.zip" Here</a>
 
 <p>
   
