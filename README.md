@@ -7,7 +7,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/v/release/sigmachipmunk/Azora-Multitool?label=Version&color=a80505">
-  <img src="https://img.shields.io/github/stars/sigmachipmunk/Azora-Multitool?style=flat&label=Stars&color=a80505">
+  <img src="https://img.shields.io/github/stars/sigmachipmunk/Azora-Multitool?style=social" alt="GitHub stars">
   <img src="https://img.shields.io/github/repo-size/sigmachipmunk/Azora-Multitool?label=Size&color=a80505">
   <img src="https://img.shields.io/github/languages/top/sigmachipmunk/Azora-Multitool?color=a80505">
 </p>
