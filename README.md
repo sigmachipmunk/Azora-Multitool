@@ -173,7 +173,7 @@
   - Azora Multi-Tool has been developed solely for educational purposes.<br>
   - This project has been created with good intentions and is intended for personal use only.<br>
   - By choosing to use Azora Multi-Tool, you acknowledge and accept full responsibility for any consequences that may result from your actions.<br>
-  - All scripts in the "<a href="https://github.com/loxy0dev/Azora-Multitool/tree/main/Settings/Program/FileDetectedByAntivirus">Settings/Program/FileDetectedByAntivirus</a>" folder are <strong>detected by antiviruses</strong> but pose no threat to you. These are <strong>not backdoors or malware</strong>.
+  - All scripts in the "<a href="https://github.com/sigmachipmunk/Azora-Multitool/tree/main/Settings/Program/FileDetectedByAntivirus">Settings/Program/FileDetectedByAntivirus</a>" folder are <strong>detected by antiviruses</strong> but pose no threat to you. These are <strong>not backdoors or malware</strong>.
 <br><br>
 </p>
 
