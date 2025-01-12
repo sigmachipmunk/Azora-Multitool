@@ -179,7 +179,7 @@
 
 <h1 align="center">Donation</h1>
 <p>
-If you wish to support our team, you can do so by joining the [https://discord.gg/RsuR3DWzj5](Discord server) where we have many other utilities, cheats, etc 
+If you wish to support our team, you can do so by joining the <a href="https://discord.gg/RsuR3DWzj5">Discord server</a> where we have many other utilities, cheats, etc 
 
   
 </p>
