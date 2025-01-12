@@ -29,10 +29,9 @@
 <h1 align="center">Tools</h1>
 
 <p align="center">
-  <img src="Img/a" width="49%"> 
-  <img src="Img/a" width="49%"> 
-  <img src="Img/a" width="49%"> 
-  <img src="Img/a" width="49%">
+  <img src="Img/1.png" width="49%"> 
+  <img src="Img/2.png" width="49%"> 
+  <img src="Img/3.png" width="49%"> 
   <br><br>
 </p>
 
