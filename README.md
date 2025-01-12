@@ -140,7 +140,7 @@
 
 <p>
 - Install <a href="https://www.python.org/downloads/">Python</a> with the <a href="Img/Python_Path.png">PATH</a> options.<br>
-- Windows 10 & 11 or +
+- Windows 10 or 11
 </p>
 
 
@@ -153,7 +153,7 @@
 ```
 1 - Download the .zip folder.
 2 - Unzip the folder.
-3 - Launch "Setup.bat" or "Setup.py".
+3 - Launch "Setup.bat".
 ```
 <br><br>
 </p>
