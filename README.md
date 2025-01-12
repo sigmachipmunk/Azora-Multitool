@@ -151,13 +151,6 @@
 - Windows 10 & 11 or +
 </p>
 
-<h3>Linux:</h3>
-
-<p>
-- Latest version of <a href="https://www.python.org/downloads/">Python</a>.<br>
-- Linux recent version.
-<br><br>
-</p>
 
 <h1 align="center">Installation</h1>
 
