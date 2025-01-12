@@ -6,12 +6,6 @@
 </p>
 
 <p>
-  <img src="https://img.shields.io/github/stars/sigmachipmunk/Azora-Multitool?style=social&color=red" alt="GitHub stars">
-  <img src="https://img.shields.io/github/v/tag/sigmachipmunk/Azora-Multitool?label=version&color=red" alt="Version">
-  <img src="https://img.shields.io/github/repo-size/sigmachipmunk/Azora-Multitool?color=red" alt="Repo size">
-</p>
-
-<p>
   
   - Developed in <strong>Python</strong>, by <a href="https://discord.gg/RsuR3DWzj5">Auora and Skibidivro</a><br>
   - Tool in <strong>English</strong>.<br>
