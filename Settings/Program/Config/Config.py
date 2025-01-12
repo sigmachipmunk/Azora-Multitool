@@ -1,0 +1,17 @@
+
+
+name_tool       =  "Azora-Multitool"
+type_tool       =  "Multi-Tools"
+version_tool    =  "6.1"
+coding_tool     =  "Python 3"
+language_tool   =  "EN"
+creator         =  "Auora_."
+platform        =  "Windows 10/11 & Linux"
+discord_server  =  "https://discord.gg/RsuR3DWzj5"
+website         =  ""
+github_tool     =  "github.com/sigmachipmunk/Azora-Multitool"
+telegram        =  "None"
+url_config      =  "https://raw.githubusercontent.com/loxy0dev/RedTiger-Tools/main/Settings/Program/Config/Config.py"
+url_downloads   =  "https://github.com/loxy0dev/RedTiger-Tools/archive/main.zip"
+license         =  "https://github.com/sigmachipmunk/Azora-Multitool/blob/main/LICENSE"
+copyright       =  "Copyright (c) 2025 sigmachipmunk 'MIT license'"

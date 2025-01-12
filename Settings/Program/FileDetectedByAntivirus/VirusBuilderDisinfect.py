@@ -1,0 +1,204 @@
+
+#    ╔════════════════════════════════════════════════════════════════════════════╗
+#    ║ ! File detected by the antivirus, but be aware that there is no backdoor ! ║
+#    ╚════════════════════════════════════════════════════════════════════════════╝
+
+import os
+import sys
+import psutil
+import time
+import keyboard
+import subprocess
+import re
+
+def disinfect():
+    try:
+        def UnblockTaskManager():
+            "Perm Admin Required"
+            print(f"[!] | Unblock Task Manager.")
+            subprocess.run("reg add HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableTaskMgr /t REG_DWORD /d 0 /f", shell=True)
+
+        def UnblockKey():
+            print(f"[!] | Unblock Key.")
+            key = [
+                "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
+                "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",
+                "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "ù",
+                "`", "+", "-", "=", "*", "[", "]", "\\", ";", "'", ",", ".", "/", 
+                "space", "enter", "esc", "tab", "backspace", "delete", "insert",
+                "up", "down", "left", "right", "equal", "home", "end", "page up", "page down",
+                "caps lock", "num lock", "scroll lock", "shift", "ctrl", "cmd", "win",
+                "f1", "f2", "f3", "f4", "f5", "f6", "f7", "f8", "f9", "f10", "f11", "f12",
+                "backslash", "semicolon", "comma", "period", "slash",
+                "volume up", "volume down", "volume mute",
+                "app", "sleep", "print screen", "pause",
+            ]
+            for key_block in key:
+                try: keyboard.unblock_key(key_block)
+                except: pass
+            
+
+        def DeleteRestart():
+            print(f"[!] | Delete Restart.")
+            def EndTask(file):
+                for proc in psutil.process_iter():
+                    try:
+                        if file.lower() in proc.name().lower():
+                            proc.terminate()
+                    except:
+                        pass
+            EndTask("ㅤ.exe")
+            EndTask("ㅤ.py")
+
+        def DeleteStartup():
+            print(f"[!] | Delete Startup.")
+            if sys.platform.startswith('win'):  
+                folder = os.path.join(os.getenv('APPDATA'), 'Microsoft', 'Windows', 'Start Menu', 'Programs', 'Startup')
+            elif sys.platform.startswith('darwin'): 
+                folder = os.path.join(os.path.expanduser('~'), 'Library', 'LaunchAgents')
+            elif sys.platform.startswith('linux'):
+                folder = os.path.join(os.path.expanduser('~'), '.config', 'autostart')
+
+            file = f"{folder}/ㅤ.exe"
+            if os.path.exists(file):
+                os.remove(file)
+
+            file = f"{folder}/ㅤ.py"
+            if os.path.exists(file):
+                os.remove(file)
+
+        def UnblockSite():
+            "Perm Admin Required"
+            print(f"[!] | Unblock Website.")
+            def unblock_website(website):
+                hosts_path = r"C:\Windows\System32\drivers\etc\hosts"
+                redirect = "127.0.0.1"
+                with open(hosts_path, "r+") as file:
+                    lines = file.readlines()
+                    file.seek(0)
+                    for line in lines:
+                        if not line.startswith(redirect + " " + website):
+                            file.write(line)
+                    file.truncate()
+            websites_to_block = [
+                'virustotal.com', 
+                'www.virustotal.com',
+                'www.virustotal.com/gui/home/upload',
+                'avast.com', 
+                'totalav.com', 
+                'scanguard.com', 
+                'totaladblock.com', 
+                'pcprotect.com', 
+                'mcafee.com', 
+                'bitdefender.com', 
+                'us.norton.com', 
+                'avg.com', 
+                'malwarebytes.com', 
+                'pandasecurity.com', 
+                'avira.com', 
+                'norton.com', 
+                'eset.com', 
+                'zillya.com', 
+                'kaspersky.com', 
+                'usa.kaspersky.com', 
+                'sophos.com', 
+                'home.sophos.com', 
+                'adaware.com', 
+                'bullguard.com', 
+                'clamav.net', 
+                'drweb.com', 
+                'emsisoft.com', 
+                'f-secure.com', 
+                'zonealarm.com', 
+                'trendmicro.com', 
+                'ccleaner.com'
+            ]
+            for website in websites_to_block:
+                unblock_website(website)
+        
+        def DeleteDiscordInjection():
+            print(f"[!] | Closing Discord.")
+            for proc in psutil.process_iter():
+                if 'discord' in proc.name().lower():
+                    proc.kill()
+                    
+            print(f"[!] | Delete Discord Injection.")
+            def g3t_c0r3(dir):
+                for file in os.listdir(dir):
+                    if re.search(r'app-+?', file):
+                        modules = dir + '\\' + file + '\\modules'
+                        if not os.path.exists(modules):
+                            continue
+                        for file in os.listdir(modules):
+                            if re.search(r'discord_desktop_core-+?', file):
+                                core = modules + '\\' + file + '\\' + 'discord_desktop_core'
+                                return core, file
+                return None
+            
+            appdata = os.getenv('LOCALAPPDATA')
+            discord_dirs = [
+                appdata + '\\Discord',
+                appdata + '\\DiscordCanary',
+                appdata + '\\DiscordPTB',
+                appdata + '\\DiscordDevelopment'
+            ]
+
+            for dir in discord_dirs:
+                if not os.path.exists(dir):
+                    continue
+
+                core_info = g3t_c0r3(dir)
+                if core_info is not None:
+                    core, core_file = core_info
+                    
+                    index_js_path = core + '\\index.js'
+                    
+                    if not os.path.exists(index_js_path):
+                        open(index_js_path, 'w').close()
+
+                    with open(index_js_path, 'w', encoding='utf-8') as f:
+                        f.write("module.exports = require('./core.asar');")
+
+        print(f"[!] | Disinfection RedTiger stealer in progress..")
+        time.sleep(1)
+        try:
+            UnblockTaskManager()
+        except:
+            pass
+        time.sleep(2)
+        try:
+            UnblockKey()
+        except:
+            pass
+        time.sleep(2)
+        try:
+            DeleteRestart()
+        except:
+            pass
+        time.sleep(2)
+        try:
+            DeleteStartup()
+        except:
+            pass
+        time.sleep(2)
+        try:
+            UnblockSite()
+        except:
+            pass
+        time.sleep(2)
+        try:
+            DeleteDiscordInjection()
+        except:
+            pass
+        time.sleep(1)
+        print(f"[!] | Disinfection finished.")
+        time.sleep(3)
+
+    except Exception as e:
+        print(e)
+
+disinfect()
+
+#    ╔════════════════════════════════════════════════════════════════════════════╗
+#    ║ ! File detected by the antivirus, but be aware that there is no backdoor ! ║
+#    ╚════════════════════════════════════════════════════════════════════════════╝
