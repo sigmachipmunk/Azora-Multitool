@@ -15,6 +15,7 @@
   - <strong>Frequently updated</strong>.<br>
   - <strong>Free</strong> for everyone.<br>
   - The tools include: <strong>Scanning, Osint, Utilities, Builder, Roblox, Discord</strong>, And more..
+  - Installation and requirements <a href=https://github.com/sigmachipmunk/Azora-Multitool/tree/main#requirements>Found here</a>
   <br><br>
 </p>
 
