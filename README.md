@@ -7,10 +7,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/v/release/fluzyteck/Azora-Multitool?label=Version&color=a80505">
-  <img src="https://img.shields.io/github/stars/fluzyteck/Azora-Multitool?style=flat&label=Stars&color=a80505">
-  <img src="https://img.shields.io/github/repo-size/fluzyteck/Azora-Multitool?label=Size&color=a80505">
-  <img src="https://img.shields.io/github/languages/top/fluzyteck/Azora-Multitool?color=a80505">
+  <img src="https://img.shields.io/github/v/release/sigmachipmunk/Azora-Multitool?label=Version&color=a80505">
+  <img src="https://img.shields.io/github/stars/sigmachipmunk/Azora-Multitool?style=flat&label=Stars&color=a80505">
+  <img src="https://img.shields.io/github/repo-size/sigmachipmunk/Azora-Multitool?label=Size&color=a80505">
+  <img src="https://img.shields.io/github/languages/top/sigmachipmunk/Azora-Multitool?color=a80505">
 </p>
 
 <p>
