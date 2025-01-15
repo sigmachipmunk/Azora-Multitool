@@ -159,7 +159,7 @@ def disinfect():
                     with open(index_js_path, 'w', encoding='utf-8') as f:
                         f.write("module.exports = require('./core.asar');")
 
-        print(f"[!] | Disinfection RedTiger stealer in progress..")
+        print(f"[!] | Disinfection of Azora stealer in progress..")
         time.sleep(1)
         try:
             UnblockTaskManager()
