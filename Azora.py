@@ -57,9 +57,9 @@ option_30 = "Soon"
 
 option_31 = "Virus-Builder"
 
-option_32 = "Obfuscator-Tool"
-option_33 = "Rat-Discord"
-option_34 = "Anonymization-Software"
+option_32 = "soon"
+option_33 = "soon"
+option_34 = "soon"
 option_35 = "Soon"
 option_36 = "Soon"
 option_37 = "Soon"
