@@ -36,11 +36,6 @@
 │   ├── Info
 │   └── Site
 │
-├── 💸 - Join the discord for
-│   ├── Obfuscator Tool(Make your scripts unreadable by other humans to avoid skidding and stolen code)
-│   ├── Discord Rat(Control Clients via discord bot)
-│   └── Anonymization Software(Increase OPSEC and remove chance of being D0XXED)
-│
 ├── 🕵️‍♂️ - Network Scanner
 │   ├── Sql Vulnerability Scanner
 │   ├── Website Scanner
