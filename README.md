@@ -27,7 +27,15 @@
   <img src="Img/3.png" width="49%"> 
   <br><br>
 </p>
+<h1 align="center">WARNING⚠️</h1>
+<P>
+   It has come to my attention that there is a <bold>infected clone</bold> of our multitool. After further anaylsis, it is obfuscated lua malware. I do NOT recommend running it as it may be a rat, stealer, or ransomware. Please note that you are getting our multitool from <a href="https://github.com/sigmachipmunk/Azora-Multitool/">here</a> as this is the offical repository
 
+   On the other hand, make sure that you NEVER download it from <a href="https://github.com/roindroid/Azora-Multitool">here</a>. I unfortunately not quick and this has been going on for around a month. It is still active as it has updated 15 minutes ago. To conclude this warning, there is an infected clone and you should not download it.
+
+   
+   
+</P>
 <h1 align="center">Features</h1>
 <p>
    
